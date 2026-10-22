@@ -1,0 +1,29 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & Secrets (CRITICAL: Never commit .env)
+.env
+*.env.local
+
+# SQLite Database files
+*.db
+*.sqlite3
+
+# Testing & Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
