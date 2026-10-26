@@ -42,10 +42,10 @@ for package_name, description in PACKAGES:
 print("\n=== Checking Environment Variables (Safe Verification) ===")
 # Keys required for voice pipeline and backend
 ENV_KEYS = [
-    ("OPENAI_API_KEY", "Required for LLM tool calling"),
+    ("GROQ_API_KEY", "Free LLM Provider (Llama 3.3 70B)"),
+    ("OPENAI_API_KEY", "Alternative LLM Provider (Optional)"),
     ("DEEPGRAM_API_KEY", "Required for Speech-to-Text"),
     ("CARTESIA_API_KEY", "Required for Text-to-Speech"),
-    ("DAILY_API_KEY", "Required for WebRTC Audio Transport"),
     ("BANK_API_BASE_URL", "Backend API endpoint (default: http://127.0.0.1:8000)"),
 ]
 
